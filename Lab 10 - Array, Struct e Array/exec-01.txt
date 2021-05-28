@@ -1,0 +1,29 @@
+inicialmente será printado o tamanho de cada
+variavel:
+
+int[2]= 8 bytes
+short[2][3]= 12 bytes
+
+posteriormente as posições de memória de cada byte da variável
+
+0x100 - 0xA4
+0X101 - 0XA3
+0X102 - 0XA2
+0X103 - 0XA1
+0x104 - 0xB4
+0X105 - 0XB3
+0X106 - 0XB2
+0X107 - 0XB1
+
+0X200 - 0XA2
+0X201 - 0XA1
+0X202 - 0XB2
+0X203 - 0XB1
+0X204 - 0XC2
+0X205 - 0XC1
+0X206 - 0XD2
+0X207 - 0XD1
+0X208 - 0XE2
+0X209 - 0XE1
+0X210 - 0XF2
+0X211 - 0XF1

@@ -1,0 +1,13 @@
+Antes de rodar:
+Inverte os bits e soma 1, inverte o sinal do número.
+
+Saidas esperadas:
+-1
+5
+-35
+42
+-127
+128
+
+Após rodar:
+O 128 cotinua negativo por ser o limite inferior e não existir uma representação positiva pois os range do bit inteiro com sinal é {-128,...,127}

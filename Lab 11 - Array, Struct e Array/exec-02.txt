@@ -1,0 +1,43 @@
+Inicialmente será printado os valores declarados da struct
+
+print -------
+x.a = 2048
+x.b = 17
+x.c = 0xBebaCafe
+--------
+
+Posteriormente o valor de x.b é alterado
+atraves da operação ou com 0x20
+
+00010001 (17)
+00100000 (0x20)
+= 00110001 (49)
+
+print ------
+x.a = 2048
+x.b = 49
+x.c = 0xBebaCafe
+---------------
+
+Após a variavel pshort não altera nada pois ela 
+aponta para bytes não utilizados, pois apontam para o 
+sexto e sétimo bit, onde na struct as variaveis são organizadas da seguinte forma:
+
+0x100 = int
+0x101 = int
+0x102 = int
+0x103 = int
+0x104 = short
+0x105 = short
+0x106 = --
+0x107 = --
+0x108 = int
+0x109 = int
+0x110 = int
+0x111 = int
+
+print ----------
+x.a = 2048
+x.b = 49
+x.c = 0xBebaCafe
+--------------

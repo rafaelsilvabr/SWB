@@ -1,0 +1,18 @@
+Antes de rodar
+Prog1
+x = Um numero bem grande
+y = 2
+x > y - não
+
+Prog2
+x = -1 
+y = 2
+x < y - sim
+
+Prog3
+x = -1 
+y = 2
+x < y - sim
+
+Após rodar:
+- No prog 3 ao comparar 2 termos com representações diferentes (int e unsigned int) ele transforma as 2 para sem sinal fazendo com que o x=-1 vire um número extremamente grande

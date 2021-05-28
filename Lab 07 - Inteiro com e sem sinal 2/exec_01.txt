@@ -1,0 +1,2 @@
+1. Pois depende do casting, dependendo do compilador ao realizar o casting ele altera todos os bits à esuqerda para 1.
+será impresso o 0xFFFFFFFF
